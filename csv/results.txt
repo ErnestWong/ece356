@@ -1,0 +1,18 @@
+0mb.txt: 21.95 s
+
+128mb.txt: 11.68 s
+
+16mb.txt: 11.27 s
+
+1mb.txt: 22.28 s
+
+256mb.txt: 11.51 s
+
+32mb.txt: 11.28 s
+
+512mb.txt: 11.45 s
+
+64mb.txt: 11.5 s
+
+8mb.txt: 11.63 s
+

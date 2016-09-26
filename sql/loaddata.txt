@@ -1,0 +1,45 @@
+
+
+
+
+LOAD TABLE command documented here:
+https://dev.mysql.com/doc/refman/5.0/en/loading-tables.html
+
+
+
+
+
+DELETE FROM Schools; 
+
+LOAD DATA LOCAL INFILE 'Schools.csv' 
+INTO TABLE Schools 
+CHARACTER SET 'UTF8'
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES ; 
+
+
+
+ bulk_insert_buffer_size
+
+
+
+MyISAM uses a special tree-like cache to make bulk inserts 
+faster for INSERT ... SELECT, INSERT ... VALUES (...), (...), ...,
+ and LOAD DATA INFILE when adding data to nonempty tables. 
+This variable limits the size of the cache tree in bytes per thread. 
+Setting it to 0 disables this optimization. 
+The default value is 8MB.
+
+
+to log output:
+
+mysql
+
+tee filename.txt
+
+
+
+
+
