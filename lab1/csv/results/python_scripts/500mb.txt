@@ -1,0 +1,286 @@
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 4993 rows affected (0.20 sec)
+Records: 4993  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 12051 rows affected (0.50 sec)
+Records: 12051  Duplicates: 0  Warnings: 0
+
+Query OK, 12058 rows affected (0.26 sec)
+Records: 12058  Duplicates: 0  Warnings: 0
+
+Query OK, 12038 rows affected (0.26 sec)
+Records: 12038  Duplicates: 0  Warnings: 0
+
+Query OK, 12022 rows affected (0.26 sec)
+Records: 12022  Duplicates: 0  Warnings: 0
+
+Query OK, 13189 rows affected (0.28 sec)
+Records: 13189  Duplicates: 0  Warnings: 0
+
+Query OK, 13696 rows affected (0.29 sec)
+Records: 13696  Duplicates: 0  Warnings: 0
+
+Query OK, 13795 rows affected (0.29 sec)
+Records: 13795  Duplicates: 0  Warnings: 0
+
+Query OK, 10617 rows affected (0.23 sec)
+Records: 10617  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 171 rows affected (0.01 sec)
+Records: 171  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 6026 rows affected (0.22 sec)
+Records: 6026  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 401 rows affected (0.02 sec)
+Records: 401  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 6705 rows affected (0.24 sec)
+Records: 6705  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 11087 rows affected (0.52 sec)
+Records: 11087  Duplicates: 0  Warnings: 0
+
+Query OK, 11017 rows affected (0.29 sec)
+Records: 11017  Duplicates: 0  Warnings: 0
+
+Query OK, 11065 rows affected (0.29 sec)
+Records: 11065  Duplicates: 0  Warnings: 0
+
+Query OK, 11079 rows affected (0.28 sec)
+Records: 11079  Duplicates: 0  Warnings: 0
+
+Query OK, 11096 rows affected (0.29 sec)
+Records: 11096  Duplicates: 0  Warnings: 0
+
+Query OK, 11076 rows affected (0.28 sec)
+Records: 11076  Duplicates: 0  Warnings: 0
+
+Query OK, 11215 rows affected (0.30 sec)
+Records: 11215  Duplicates: 0  Warnings: 0
+
+Query OK, 11072 rows affected (0.29 sec)
+Records: 11072  Duplicates: 0  Warnings: 0
+
+Query OK, 11061 rows affected (0.28 sec)
+Records: 11061  Duplicates: 0  Warnings: 0
+
+Query OK, 78 rows affected (0.00 sec)
+Records: 78  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 11294 rows affected (0.50 sec)
+Records: 11294  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 17350 rows affected (0.37 sec)
+Records: 17350  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 11760 rows affected (0.48 sec)
+Records: 11760  Duplicates: 0  Warnings: 0
+
+Query OK, 11727 rows affected (0.24 sec)
+Records: 11727  Duplicates: 0  Warnings: 0
+
+Query OK, 11694 rows affected (0.24 sec)
+Records: 11694  Duplicates: 0  Warnings: 0
+
+Query OK, 11725 rows affected (0.26 sec)
+Records: 11725  Duplicates: 0  Warnings: 0
+
+Query OK, 11712 rows affected (0.24 sec)
+Records: 11712  Duplicates: 0  Warnings: 0
+
+Query OK, 11758 rows affected (0.27 sec)
+Records: 11758  Duplicates: 0  Warnings: 0
+
+Query OK, 11748 rows affected (0.25 sec)
+Records: 11748  Duplicates: 0  Warnings: 0
+
+Query OK, 11796 rows affected (0.25 sec)
+Records: 11796  Duplicates: 0  Warnings: 0
+
+Query OK, 11747 rows affected (0.25 sec)
+Records: 11747  Duplicates: 0  Warnings: 0
+
+Query OK, 11782 rows affected (0.25 sec)
+Records: 11782  Duplicates: 0  Warnings: 0
+
+Query OK, 11765 rows affected (0.28 sec)
+Records: 11765  Duplicates: 0  Warnings: 0
+
+Query OK, 11818 rows affected (0.25 sec)
+Records: 11818  Duplicates: 0  Warnings: 0
+
+Query OK, 11764 rows affected (0.25 sec)
+Records: 11764  Duplicates: 0  Warnings: 0
+
+Query OK, 11734 rows affected (0.25 sec)
+Records: 11734  Duplicates: 0  Warnings: 0
+
+Query OK, 3408 rows affected (0.10 sec)
+Records: 3408  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 12028 rows affected (0.34 sec)
+Records: 12028  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 11924 rows affected (0.46 sec)
+Records: 11924  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 4088 rows affected (0.18 sec)
+Records: 4088  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 3370 rows affected (0.12 sec)
+Records: 3370  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 93 rows affected (0.00 sec)
+Records: 93  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 5363 rows affected (0.39 sec)
+Records: 5363  Duplicates: 0  Warnings: 0
+
+Query OK, 5369 rows affected (0.16 sec)
+Records: 5369  Duplicates: 0  Warnings: 0
+
+Query OK, 5359 rows affected (0.17 sec)
+Records: 5359  Duplicates: 0  Warnings: 0
+
+Query OK, 2498 rows affected (0.08 sec)
+Records: 2498  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 9271 rows affected (0.56 sec)
+Records: 9271  Duplicates: 0  Warnings: 0
+
+Query OK, 9242 rows affected (0.32 sec)
+Records: 9242  Duplicates: 0  Warnings: 0
+
+Query OK, 9250 rows affected (0.28 sec)
+Records: 9250  Duplicates: 0  Warnings: 0
+
+Query OK, 9271 rows affected (0.29 sec)
+Records: 9271  Duplicates: 0  Warnings: 0
+
+Query OK, 6296 rows affected (0.19 sec)
+Records: 6296  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 4945 rows affected (0.42 sec)
+Records: 4945  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 23692 rows affected (0.46 sec)
+Records: 23692  Duplicates: 0  Warnings: 0
+
+Query OK, 1066 rows affected (0.01 sec)
+Records: 1066  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.05 sec)
+
+Query OK, 1207 rows affected (0.05 sec)
+Records: 1207  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 298 rows affected (0.00 sec)
+Records: 298  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 2775 rows affected (0.38 sec)
+Records: 2775  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 120 rows affected (0.00 sec)
+Records: 120  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 52 rows affected (0.00 sec)
+Records: 52  Duplicates: 0  Warnings: 0
+
+mysql> ^C
+mysql> 

@@ -1,0 +1,122 @@
+Query OK, 52 rows affected (0.01 sec)
+
+Query OK, 52 rows affected (0.00 sec)
+Records: 52  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 93 rows affected (0.00 sec)
+
+Query OK, 93 rows affected (0.00 sec)
+Records: 93  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 99466 rows affected (0.86 sec)
+
+Query OK, 99466 rows affected, 65535 warnings (1.26 sec)
+Records: 99466  Deleted: 0  Skipped: 0  Warnings: 213769
+
+Query OK, 3370 rows affected (0.05 sec)
+
+Query OK, 3370 rows affected, 3371 warnings (0.06 sec)
+Records: 3370  Deleted: 0  Skipped: 0  Warnings: 3371
+
+Query OK, 24758 rows affected (0.32 sec)
+
+Query OK, 24758 rows affected, 24758 warnings (0.37 sec)
+Records: 24758  Deleted: 0  Skipped: 0  Warnings: 24758
+
+Query OK, 99846 rows affected (0.93 sec)
+
+Query OK, 99846 rows affected, 65535 warnings (1.52 sec)
+Records: 99846  Deleted: 0  Skipped: 0  Warnings: 422943
+
+Query OK, 120 rows affected (0.00 sec)
+
+Query OK, 120 rows affected, 12 warnings (0.01 sec)
+Records: 120  Deleted: 0  Skipped: 0  Warnings: 12
+
+Query OK, 11294 rows affected (0.12 sec)
+
+Query OK, 11294 rows affected, 6174 warnings (0.16 sec)
+Records: 11294  Deleted: 0  Skipped: 0  Warnings: 6174
+
+Query OK, 171 rows affected (0.00 sec)
+
+Query OK, 171 rows affected (0.00 sec)
+Records: 171  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 167938 rows affected (1.61 sec)
+
+Query OK, 167938 rows affected, 65535 warnings (2.56 sec)
+Records: 167938  Deleted: 0  Skipped: 0  Warnings: 1024250
+
+Query OK, 17350 rows affected (0.25 sec)
+
+Query OK, 17350 rows affected (0.25 sec)
+Records: 17350  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 1207 rows affected (0.02 sec)
+
+Query OK, 1207 rows affected (0.02 sec)
+Records: 1207  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 6705 rows affected (0.08 sec)
+
+Query OK, 6705 rows affected, 6705 warnings (0.14 sec)
+Records: 6705  Deleted: 0  Skipped: 0  Warnings: 6705
+
+Query OK, 6026 rows affected (0.08 sec)
+
+Query OK, 6026 rows affected (0.12 sec)
+Records: 6026  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 11924 rows affected (0.14 sec)
+
+Query OK, 11924 rows affected, 23661 warnings (0.33 sec)
+Records: 11924  Deleted: 0  Skipped: 0  Warnings: 23661
+
+Query OK, 298 rows affected (0.01 sec)
+
+Query OK, 298 rows affected (0.01 sec)
+Records: 298  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 4993 rows affected (0.06 sec)
+
+Query OK, 4993 rows affected, 3434 warnings (0.09 sec)
+Records: 4993  Deleted: 0  Skipped: 0  Warnings: 3434
+
+Query OK, 18589 rows affected (0.25 sec)
+
+Query OK, 18589 rows affected, 65535 warnings (0.30 sec)
+Records: 18589  Deleted: 0  Skipped: 0  Warnings: 81951
+
+Query OK, 43330 rows affected (0.47 sec)
+
+Query OK, 43330 rows affected, 65535 warnings (0.73 sec)
+Records: 43330  Deleted: 0  Skipped: 0  Warnings: 125639
+
+Query OK, 4088 rows affected (0.05 sec)
+
+Query OK, 4088 rows affected, 736 warnings (0.08 sec)
+Records: 4088  Deleted: 0  Skipped: 0  Warnings: 736
+
+Query OK, 2775 rows affected (0.06 sec)
+
+Query OK, 2775 rows affected, 9543 warnings (0.12 sec)
+Records: 2775  Deleted: 0  Skipped: 0  Warnings: 9543
+
+Query OK, 12028 rows affected (0.09 sec)
+
+Query OK, 12028 rows affected, 117 warnings (0.11 sec)
+Records: 12028  Deleted: 0  Skipped: 0  Warnings: 117
+
+Query OK, 401 rows affected (0.01 sec)
+
+Query OK, 401 rows affected (0.01 sec)
+Records: 401  Deleted: 0  Skipped: 0  Warnings: 0
+
+Query OK, 4945 rows affected (0.07 sec)
+
+Query OK, 4945 rows affected, 2234 warnings (0.08 sec)
+Records: 4945  Deleted: 0  Skipped: 0  Warnings: 2234
+
+Query OK, 0 rows affected (0.00 sec)
+

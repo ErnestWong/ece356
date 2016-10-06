@@ -1,0 +1,18 @@
+0.5mb.txt: 16.18 s
+
+0mb.txt: 16.25 s
+
+100mb.txt: 16.22 s
+
+10mb.txt: 16.07 s
+
+1mb.txt: 16.26 s
+
+2mb.txt: 15.85 s
+
+500mb.txt: 15.93 s
+
+50mb.txt: 16.08 s
+
+5mb.txt: 16.16 s
+
