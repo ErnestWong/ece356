@@ -69,16 +69,23 @@ table SupplyData into the new tables
 
 Note:  use INSERT INTO (SELECT .. FROM SupplyData)
 */
+INSERT INTO SupplyType (SELECT typeID, typeDescription FROM SupplyData);
 
 
 
 
 /* Create table ProjectSupply, used associate pojects with supplies. These table store a count of the number of supplies involved in the association. 
-
-ie. projectID 123 uses 10  Laptop computers  (supplyID 103)
-
-
 */
+DROP TABLE if EXISTS ProjectSupply;
+CREATE TABLE ProjectSupply(projectID INT,
+supplyID INT, amount INT);
+INSERT INTO ProjectSupply VALUES (123, 103, 10);
+INSERT INTO ProjectSupply VALUES (345, 104, 2);
+INSERT INTO ProjectSupply VALUES (345, 101, 15);
+
+/*ie. projectID 123 uses 10  Laptop computers  (supplyID 103) */
+
+
 
 
 

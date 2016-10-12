@@ -1,6 +1,6 @@
 /* Lab 2 -part 4 - Creating a view */
 
-USE ece356db_xxxxx; 
+USE ece356db_e56wong; 
 
 
 
@@ -22,12 +22,21 @@ SELECT projID,title, budget  FROM Project WHERE budget <=500000;
 
 /* Query using this view */
 
-SELECT * FROM ProjectLowBudget WHERE title like "%Conference%";
+-- SELECT * FROM ProjectLowBudget WHERE title like "%Conference%";
 
 
+DROP VIEW IF EXISTS
+    EmpDepView;
+
+CREATE VIEW EmpDepView AS 
+SELECT empID, empName, job, Department.* FROM Employee INNER JOIN Department ON Employee.deptID=Department.deptID;
 
 
+SELECT * FROM EmpDepView;
 
+SELECT * FROM EmpDepView WHERE EmpDepView.deptName = "marketing";
+
+SELECT p.title, emp.empName, emp.deptName from EmpDepView as emp INNER JOIN Assigned as a ON emp.empID=a.empID INNER JOIN Project as p ON p.projID=a.projID;
 
 
 

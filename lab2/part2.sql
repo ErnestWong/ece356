@@ -29,22 +29,30 @@ foreign key (deptID) references Department(deptID) );
 
 /* Tables created in lab 1 */
 
-USE ece356db_xxxxx; 
+USE ece356db_e56wong; 
 
 
+DROP TABLE IF EXISTS Employee;  
 DROP TABLE IF EXISTS Department;           
-CREATE TABLE Department(deptID INT,deptName VARCHAR(100),location VARCHAR(100));                    
+CREATE TABLE Department(deptID INT,deptName VARCHAR(100),location VARCHAR(100));
+ALTER TABLE Department ADD PRIMARY KEY(deptID);
           
 DROP TABLE IF EXISTS Employee;  
 CREATE TABLE Employee(empID INT,empName VARCHAR(100),job VARCHAR(100),deptID INT,salary INT);
+ALTER TABLE Employee ADD FOREIGN KEY(deptID) REFERENCES Department(deptID);
+
+DROP TABLE IF EXISTS Project;           
+CREATE TABLE Project(projID INT,title VARCHAR(100),budget INT,funds INT);
 
 -- For the Assigned table, you need ti specify a  
 -- primary key that includes two columns                  
 DROP TABLE IF EXISTS Assigned;             
 CREATE TABLE Assigned(empID INT,projID INT,role VARCHAR(100));                 
+ALTER TABLE Assigned ADD PRIMARY KEY (empID, projID);
+-- ALTER TABLE Assigned ADD FOREIGN KEY (empID) REFERENCES Employee(empID);
+-- ALTER TABLE Assigned ADD FOREIGN KEY (projID) REFERENCES Project(projID);
         
-DROP TABLE IF EXISTS Project;           
-CREATE TABLE Project(projID INT,title VARCHAR(100),budget INT,funds INT);
+
 
 
 /* Tables created in lab 2 */
@@ -55,8 +63,9 @@ CREATE TABLE Project(projID INT,title VARCHAR(100),budget INT,funds INT);
 
 DROP TABLE IF EXISTS SupplyType;  
          
-CREATE TABLE SupplyType(typeID INT,
-typeDescription VARCHAR(100)); 
+CREATE TABLE SupplyType(typeID INT AUTO_INCREMENT,
+typeDescription VARCHAR(100),
+PRIMARY KEY (typeID)); 
 
 DROP TABLE IF EXISTS Supply; 
          
@@ -67,10 +76,14 @@ costPerunit DECIMAL(8,2),
 typeID INT
 ); 
 
-
+INSERT INTO SupplyType (typeDescription) VALUES ("testing");
+INSERT INTO SupplyType (typeDescription) VALUES ("testing");
+INSERT INTO SupplyType (typeDescription) VALUES ("testing");
+INSERT INTO SupplyType (typeDescription) VALUES ("testing");
+INSERT INTO SupplyType (typeDescription) VALUES ("testing");
+INSERT INTO SupplyType (typeDescription) VALUES ("testing");
 
 /* Add here statements to create your ProjectSupply table ( from your solution to part 1), adding primary key and foreign key constrains. */
-
 
 /* Reinsert data into all tables 
 
