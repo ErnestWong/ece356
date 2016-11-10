@@ -1,0 +1,37 @@
+before:
+mysql> EXPLAIN SELECT * from Employee WHERE Employee.salary >= 30000 AND Employee.salary <= 40000;
++----+-------------+----------+------------+------+---------------+------+---------+------+------+----------+-------------+
+| id | select_type | table    | partitions | type | possible_keys | key  | key_len | ref  | rows | filtered | Extra       |
++----+-------------+----------+------------+------+---------------+------+---------+------+------+----------+-------------+
+|  1 | SIMPLE      | Employee | NULL       | ALL  | NULL          | NULL | NULL    | NULL | 1011 |    11.11 | Using where |
++----+-------------+----------+------------+------+---------------+------+---------+------+------+----------+-------------+
+1 row in set, 1 warning (0.00 sec)
+
+
+after:
+mysql> EXPLAIN SELECT * from Employee WHERE Employee.salary >= 30000 AND Employee.salary <= 40000;
++----+-------------+----------+------------+-------+---------------+--------------+---------+------+------+----------+-------------+
+| id | select_type | table    | partitions | type  | possible_keys | key          | key_len | ref  | rows | filtered | Extra       |
++----+-------------+----------+------------+-------+---------------+--------------+---------+------+------+----------+-------------+
+|  1 | SIMPLE      | Employee | NULL       | range | salary_index  | salary_index | 5       | NULL |    1 |   100.00 | Using where |
++----+-------------+----------+------------+-------+---------------+--------------+---------+------+------+----------+-------------+
+1 row in set, 1 warning (0.00 sec)
+
+before:
+mysql> EXPLAIN SELECT d.deptID, d.deptName, d.location, e.* FROM Employee as e JOIN Department as d ON d.deptID = e.deptID;
++----+-------------+-------+------------+------+----------------------+--------+---------+---------------------------+------+----------+-------+
+| id | select_type | table | partitions | type | possible_keys        | key    | key_len | ref                       | rows | filtered | Extra |
++----+-------------+-------+------------+------+----------------------+--------+---------+---------------------------+------+----------+-------+
+|  1 | SIMPLE      | d     | NULL       | ALL  | PRIMARY,deptID_index | NULL   | NULL    | NULL                      |    4 |   100.00 | NULL  |
+|  1 | SIMPLE      | e     | NULL       | ref  | deptID               | deptID | 5       | ece356db_e56wong.d.deptID |  337 |   100.00 | NULL  |
++----+-------------+-------+------------+------+----------------------+--------+---------+---------------------------+------+----------+-------+
+2 rows in set, 1 warning (0.00 sec)
+
+after: 
+mysql> EXPLAIN SELECT d.deptID, d.deptName, d.location, e.* FROM Employee as e JOIN Department as d ON d.deptID = e.deptID;
++----+-------------+-------+------------+------+----------------------+--------+---------+---------------------------+------+----------+-------+
+| id | select_type | table | partitions | type | possible_keys        | key    | key_len | ref                       | rows | filtered | Extra |
++----+-------------+-------+------------+------+----------------------+--------+---------+---------------------------+------+----------+-------+
+|  1 | SIMPLE      | d     | NULL       | ALL  | PRIMARY,deptID_index | NULL   | NULL    | NULL                      |    4 |   100.00 | NULL  |
+|  1 | SIMPLE      | e     | NULL       | ref  | deptID               | deptID | 5       | ece356db_e56wong.d.deptID |  337 |   100.00 | NULL  |
++----+-------------+-------+------------+------+----------------------+--------+---------+---------------------------+------+----------+-------+
